@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+
+            <table class="table table-striped stripped-table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>
+                        <a href="#" class="js-delete-rep-log">
+                            <span class="bi bi-trash"></span>
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>
+                        <a href="#" class="js-delete-rep-log">
+                            <span class="bi bi-trash"></span>
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>
+                        <a href="#" class="js-delete-rep-log">
+                            <span class="bi bi-trash"></span>
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>
+                        <a href="#" class="js-delete-rep-log">
+                            <span class="bi bi-trash"></span>
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $( document ).ready(function() {
+        /*const lws = {
+            a: 'with',
+            b: 'sumit',
+            3: 'learn',
+        }
+        for (value in lws) {
+            console.log(value);
+        }*/
+        /*//console.log( "ready!" );
+        $(".stripped-table").find("tr").on('click', function () {
+            console.log("clicked row");
+        });
+        $(".stripped-table").find("a").on('click', function (e) {
+            e.preventDefault();
+            $(this).addClass('text-danger');
+            $(this).find(".bi")
+                .removeClass('bi-trash')
+                .addClass('bi-arrows-fullscreen');
+            //console.log("clicked button");
+            //console.log(e.target);
+            //console.log(e.currentTarget === this);
+            //e.target.className = e.target.className + " btn-danger";
+            //$(".btn-primary")[2].className = $(".btn-primary")[2].className  + " btn-danger";
+            /!*console.log(e.target,
+                $(e.target)[0] === e.target,
+                $(".btn-primary")[2] === e.target,
+            );*!/
+            //console.dir($(".btn-primary"));
+            //e.stopPropagation();
+            //return false;
+        });
+
+        $.ajax({
+            url: '',
+            method: 'DELETE',
+            success: function () {
+
+            }
+        });*/
+    });
+</script>
+
+</body>
+</html>

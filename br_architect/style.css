@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html,body{font-family: 'Be Vietnam Pro', sans-serif;;font-size:15px;line-height:1.5}
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+.navbardiv{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+
+
+.navbar ul {
+    justify-content: flex-end;
+}
+.navbar li a{
+    padding: 8px 16px;
+    color: #000;
+    text-decoration:none ;
+}
+.navbar li a:hover{
+    color: #000;
+    background-color: #ccc !important;
+}
+.backgroundimg {
+    height: 620px;
+    background: url("https://www.w3schools.com/w3images/architect.jpg") top center no-repeat;
+    background-size: cover;
+}
+
+.home_thumb {
+    width:24.10%;margin: 15px 15px 0px 0px;position:relative;float:left;
+}
+
+.home_thumb.last{
+    margin-right: 0px;
+}
+
+.home_thumb img {
+    width: 100%;
+}
+
+.about_thumb a {
+    display: block;text-align: center;color: #000;
+    text-decoration: navajowhite;background-color: #fafafa;padding-top: 10px;
+    padding-bottom: 10px;margin-top: 20px;margin-bottom: 20px;
+    transition: background-color 2s, color 2s;
+}
+
+.about_thumb a:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+table th {
+    background-color: #04AA6D;
+    padding: 10px 5px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+table tr  {
+    padding: 10px 5px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}  {
+    background-color: #F2F2F2;
+    padding: 10px 5px;
+}
+
+table tr:hover  {
+    background-color: #F2F2F2;
+}
+
+table tr td {
+    padding: 10px 5px;
+    text-align: left;
+    border: 1px solid #ddd;
+
+}
+
+

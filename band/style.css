@@ -1,0 +1,59 @@
+html, body {
+    font-family: "Lato", sans-serif;
+}
+.nav-item a{
+    color: #fff !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;;
+}
+.nav-item a:hover {
+    background-color: #CCCCCC !important;
+    color: #212529 !important;
+}
+.search_icon{
+    z-index: 100;position: relative;
+}
+.search_icon a{
+    margin-top: 0px;
+}
+.search_icon a:hover{
+    background-color: #ff0000;
+}
+.search_form input{
+    width: 250px; right: -250px; margin-top: 0px;height: 48px;
+}
+#mynavbar {
+    background-color: #212529;
+    margin-top: .355rem;
+    z-index: 1000;
+    position: relative;
+}
+.dropdown-menu{
+    background-color: #212529;
+    color: #fff;
+}
+.dropdown-menu[data-bs-popper]{
+    top: 94%;
+}
+.carousel .carousel-control-prev{ visibility: hidden; }
+.carousel .carousel-control-next{ visibility: hidden; }
+.carousel:hover .carousel-control-prev { visibility: visible; }
+.carousel:hover .carousel-control-next { visibility: visible; }
+img{
+    width: 100%;
+}
+.months_tag{
+    border-color: #ddd !important;height: 42px;
+}
+.tag{
+    font-size:0.82rem
+}
+.tag-rounded{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 22px;
+}
+.form-control{
+    border-radius: 0;
+}
