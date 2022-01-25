@@ -1,0 +1,42 @@
+html, body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F1F1F1;
+}
+.read_more{
+    border-color: #cccccc;
+}
+.read_more:hover{
+    background-color: #ccc;
+}
+h2{
+    font-weight: bold;
+}
+.comment_tag{
+    padding: 5px 10px;
+    line-height: 8px;
+}
+.popular_bg{
+    background-color: #F1F1F1;
+}
+.popular ul li{
+    border-bottom: 1px solid #CCCCCC;
+}
+.popular ul li:last-child{
+    border-bottom: none;
+}
+.popular ul li:hover{
+    background-color: #ccc;
+}
+.popular li p{
+    margin-bottom: 1px;
+}
+.tags ul li{
+    background-color: #F1F1F1;
+    color: #000;
+    font-size: 12px;
+    display: inline-block;
+}
+.tags ul li.selected{
+    background-color: #000;
+    color: #fff;
+}
